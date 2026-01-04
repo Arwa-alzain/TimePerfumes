@@ -11,7 +11,7 @@
   </head>
   <style>
     * {
-      direction: rtl;
+      direction: ltr;
     }
     .my-login-card {
       background-color: antiquewhite;
@@ -42,19 +42,7 @@
       <div
         class="container d-flex justify-content-between align-items-center px-4"
       >
-        <a
-          href="index.html"
-          class="btn"
-          style="
-            color: #fff;
-            background-color: rgb(135, 96, 6);
-            border: none;
-            padding: 8px 20px;
-            border-radius: 6px;
-          "
-        >
-          رجوع
-        </a>
+
 
         <img
           src="images/time.webp"
@@ -72,40 +60,56 @@
           تسجيل دخول
         </h2>
         <div class="my-login-card">
-          <div class="username-container">
+          <div class="username-container" style="text-align: right;">
             <label for="username">اسم المستخدم</label>
             <br />
             <input
               class="username-container-input"
               type="username"
               name="username"
-              style="border-radius: 5px; border-width: 1px; width: 90%"
+              style="border-radius: 5px; border : 1px solid #ccc; width: 90%; text-align: right;"
             />
           </div>
           <br />
-          <div class="password-container">
+          <div class="password-container" style="text-align: right;">
             <label for="password">كلمة المرور</label>
             <br />
             <input
               class="password-container-input"
               type="password"
               name="password"
-              style="border-radius: 5px; border-width: 1px; width: 90%"
+              style="border-radius: 5px; border : 1px solid #ccc; width: 90%; text-align: right;"
             />
           </div>
           <br />
           <button class="subimt-btn" type="submit">تسجيل الدخول</button>
-          <p>
+          <p style="text-align: right;">
             ليس لديك حساب؟
             <a
               class="btn-outline-secondary"
-              style="color: rgb(135, 96, 6)"
+              style="color: rgb(135, 96, 6);"
               href="signup.html"
               >إنشاء حساب</a
             >
           </p>
         </div>
       </form>
+    </div>
+    <div style="display: flex; justify-content: center; margin-top: 20px">
+      <a
+      href="index.html"
+      class="btn"
+      style="
+        color: #fff;
+        background-color: rgb(135, 96, 6);
+        border: none;
+        padding: 8px 20px;
+        border-radius: 6px;
+        text-decoration: none;
+      "
+    >
+      رجوع
+    </a>
     </div>
   </body>
 </html>

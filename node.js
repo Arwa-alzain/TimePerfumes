@@ -5,7 +5,7 @@ const requestOptions = {
   redirect: "follow",
 };
 
-fetch("http://localhost/eighthDay/getProduct.php", requestOptions)
+fetch("http://localhost/ninthDay/getProduct.php", requestOptions)
   .then((response) => response.json())
   .then((result) => {
     console.log(result);
@@ -26,7 +26,7 @@ function renderProducts(result) {
                         <p>${timeProduct.description}</p>
                     </div>
                     <div class="product-volume">
-                        <h4 style="font-size: 10px;">${timeProduct.volume}</h4>
+                        <h4 style="font-size: 17px;">${timeProduct.volume}</h4>
                     </div>
                     <div class="product-price">
                         <h3>${timeProduct.price}

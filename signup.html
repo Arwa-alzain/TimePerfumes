@@ -11,7 +11,7 @@
   </head>
   <style>
     * {
-      direction: rtl;
+      direction: ltr;
     }
 
     .my-login-card {
@@ -44,19 +44,7 @@
       <div
         class="container d-flex justify-content-between align-items-center px-4"
       >
-        <a
-          href="index.html"
-          class="btn"
-          style="
-            color: #fff;
-            background-color: rgb(135, 96, 6);
-            border: none;
-            padding: 8px 20px;
-            border-radius: 6px;
-          "
-        >
-          رجوع
-        </a>
+        
 
         <img
           src="images/time.webp"
@@ -83,7 +71,7 @@
               class="username"
               id="username"
               name="username"
-              style="border-radius: 5px; border-width: 1px; width: 90%"
+              style="border-radius: 5px; border : 1px solid #ccc; width: 90%; text-align: right;"
               required
             />
           </div>
@@ -95,7 +83,7 @@
               class="email"
               id="email"
               name="email"
-              style="border-radius: 5px; border-width: 1px; width: 90%"
+              style="border-radius: 5px; border : 1px solid #ccc; width: 90%; text-align: right;"
               required
             />
           </div>
@@ -107,7 +95,7 @@
               class="password"
               id="password"
               name="password"
-              style="border-radius: 5px; border-width: 1px; width: 90%"
+              style="border-radius: 5px; border : 1px solid #ccc; width: 90%; text-align: right;" 
               required
             />
           </div>
@@ -123,6 +111,22 @@
           </p>
         </div>
       </form>
+    </div>
+    <div style="display: flex; justify-content: center; margin-top: 20px">
+      <a
+      href="index.html"
+      class="btn"
+      style="
+        color: #fff;
+        background-color: rgb(135, 96, 6);
+        border: none;
+        padding: 8px 20px;
+        border-radius: 6px;
+        text-decoration: none;
+      "
+    >
+      رجوع
+    </a>
     </div>
   </body>
 </html>

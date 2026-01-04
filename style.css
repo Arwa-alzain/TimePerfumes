@@ -71,7 +71,7 @@ img{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .product-volume{
-    font-size: 16px;
+    font-size: 20px;
     margin: 10px;
     text-align: center;
 }
@@ -120,7 +120,7 @@ img{
     border: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: 0.3s ease;
-      top: 70%;         /* ينزل الزر للأسفل أكثر */
+    top: 70%;         /* ينزل الزر للأسفل أكثر */
     transform: translate(-55%, -50%);
     text-decoration: none;
   }
@@ -142,10 +142,9 @@ img{
     margin-left: auto;
     display: flex;
     align-items: center;
-    background-color: rgb(240, 232, 220);
     border-radius: 5px;
     padding: 5px;
-    border-width: 0px;
-    border: #a46506;
+    border : 1px solid #ccc;
+    direction: rtl;
   }
 
