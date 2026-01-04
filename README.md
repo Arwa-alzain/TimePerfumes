@@ -16,6 +16,7 @@ Time Perfumes is a web-based project designed to showcase and sell perfumes thro
 ## 🛠️ Technologies Used
 * HTML.
 * CSS.
+* Bootstrap.
 * JavaScript.
 * PHP.
 * MySQL.
