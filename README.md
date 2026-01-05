@@ -26,3 +26,26 @@ Time Perfumes is a web-based project designed to showcase and sell perfumes thro
 * User-friendly interface.
 * Organized product management system.
 * Scalable structure for future improvements.
+
+## 🖼️ Screenshots
+
+### 🏠 Home Page
+![Homepage](images/mainPage.png)
+
+### 🛍️ Products
+![Products](images/Products.png)
+
+### 📦 Additional Products & Footer
+![Contact Us](images/footer.png)
+
+### 🔍 Search Page
+![Search](images/search.png)
+
+### 🛒 Cart
+![Cart](images/cart.png)
+
+### 🔐 Login Page
+![Login](images/login.png)
+
+### 📝 Signup Page
+![Signup](images/signup.png)
