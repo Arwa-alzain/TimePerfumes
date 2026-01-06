@@ -30,3 +30,9 @@ Time Perfumes is a web-based project designed to showcase and sell perfumes thro
 ## 🎥 Project Demo
 Click below to view the demo video:
 [![Video Preview](images/mainPage.png)](https://drive.google.com/file/d/1DQSUExU_WgFmhL0B7MwHzMJR8sWqprDv/view?usp=sharing)
+
+## 📬 Contact
+If you would like to get in touch, feel free to contact me at:
+
+📧 **Email:** arwaahalzain@email.com
+
